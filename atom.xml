@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Qiubeat</title>
+  <icon>https://blog.soian.fun/icon.png</icon>
+  
+  <link href="https://blog.soian.fun/atom.xml" rel="self"/>
+  
+  <link href="https://blog.soian.fun/"/>
+  <updated>2023-09-12T11:21:56.325Z</updated>
+  <id>https://blog.soian.fun/</id>
+  
+  <author>
+    <name>Qiubeat</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://blog.soian.fun/2023/09/12/hello-world/"/>
+    <id>https://blog.soian.fun/2023/09/12/hello-world/</id>
+    <published>2023-09-12T11:21:56.325Z</published>
+    <updated>2023-09-12T11:21:56.325Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://blog.soian.fun/2023/09/12/test/"/>
+    <id>https://blog.soian.fun/2023/09/12/test/</id>
+    <published>2023-09-12T11:21:56.325Z</published>
+    <updated>2023-09-12T11:21:56.325Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;test&quot;&gt;&lt;a href=&quot;#test&quot; class=&quot;headerlink&quot; title=&quot;test&quot;&gt;&lt;/a&gt;test&lt;/h1&gt;&lt;p&gt;test write&lt;br&gt;hello mokey&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Written with &lt;a</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
