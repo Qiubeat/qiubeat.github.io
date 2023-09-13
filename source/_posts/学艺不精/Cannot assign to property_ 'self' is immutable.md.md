@@ -1,5 +1,5 @@
 ---
-title: Cannot assign to property\: 'self' is immutable
+title: Cannot assign to property 'self' is immutable
 tag: Swift
 category: 学艺不精
 ---
@@ -23,6 +23,6 @@ struct MyStruct {
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTM2Mjc3MDgyLDE1MTI2NzIwMjYsLTcwMT
-EwMzY5OF19
+eyJoaXN0b3J5IjpbMjAyMDk5Njg5OCwxNTEyNjcyMDI2LC03MD
+ExMDM2OThdfQ==
 -->
