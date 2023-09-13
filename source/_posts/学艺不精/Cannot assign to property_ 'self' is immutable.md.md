@@ -15,13 +15,13 @@ struct MyStruct {
 }
 ```
 问题原因：
-struct 是 值类型 (value type) ，初始化后不可修改。
+`struct` 是 值类型 (value type) ，初始化后不可修改。
 
 解决方法：
-1. 将 `Struct` 改为 `Class`
+1. 将 `struct` 改为 `class`
 2. 将变量设置为 `@State`
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzMDU0Mjc0OCwtNzAxMTAzNjk4XX0=
+eyJoaXN0b3J5IjpbMTUxMjY3MjAyNiwtNzAxMTAzNjk4XX0=
 -->
