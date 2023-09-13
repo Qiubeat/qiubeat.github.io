@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Qiubeat</title>
+  <icon>https://blog.soian.fun/icon.png</icon>
+  
+  <link href="https://blog.soian.fun/atom.xml" rel="self"/>
+  
+  <link href="https://blog.soian.fun/"/>
+  <updated>2023-09-13T15:10:39.760Z</updated>
+  <id>https://blog.soian.fun/</id>
+  
+  <author>
+    <name>Qiubeat</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>test</title>
+    <link href="https://blog.soian.fun/2023/09/13/hi/"/>
+    <id>https://blog.soian.fun/2023/09/13/hi/</id>
+    <published>2023-09-13T15:10:39.760Z</published>
+    <updated>2023-09-13T15:10:39.760Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;test&quot;&gt;&lt;a href=&quot;#test&quot; class=&quot;headerlink&quot; title=&quot;test&quot;&gt;&lt;/a&gt;test&lt;/h1&gt;&lt;p&gt;test write&lt;br&gt;hello mokey&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Written with &lt;a</summary>
+        
+      
+    
+    
+    
+    
+    <category term="test" scheme="https://blog.soian.fun/tags/test/"/>
+    
+  </entry>
+  
+</feed>
