@@ -4,25 +4,6 @@
   
   
   <entry>
-    <title>重置GitLab pull mirror功能</title>
-    <link href="/2023/09/13/GitLab/%E9%87%8D%E7%BD%AEGitLab%20pull%20mirror/"/>
-    <url>/2023/09/13/GitLab/%E9%87%8D%E7%BD%AEGitLab%20pull%20mirror/</url>
-    
-    <content type="html"><![CDATA[<p>网络出现一段问题，导致 <code>gitlab</code> 的 <code>pull mirror</code> 功能超过了 <code>最大重试次数</code>，进入了暂停 pull mirror 的状态。重置多个项目的 <code>pull mirror</code> 功能，如下：</p><ul><li>进入 <code>gitlab-rails console</code></li></ul><blockquote><p>$ docker exec -it gitlab bash</p></blockquote><blockquote><p>$ gitlab-rails console</p></blockquote><ul><li>执行以下命令</li></ul><figure class="highlight reasonml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><code class="hljs reasonml"><br><span class="hljs-module-access"><span class="hljs-module"><span class="hljs-identifier">Project</span>.</span></span>find_each <span class="hljs-keyword">do</span> <span class="hljs-pattern-match">|p|</span><br><span class="hljs-pattern-match"></span><br><span class="hljs-pattern-match"><span class="hljs-keyword">if</span> p.import<span class="hljs-constructor">_state</span> <span class="hljs-operator">&amp;&amp;</span> p.import<span class="hljs-constructor">_state</span>.retry<span class="hljs-constructor">_count</span> &gt;= 14</span><br><span class="hljs-pattern-match"></span><br><span class="hljs-pattern-match">puts &quot;<span class="hljs-constructor">Resetting</span> mirroring operation <span class="hljs-keyword">for</span> #&#123;p.full<span class="hljs-constructor">_path</span>&#125;&quot;</span><br><span class="hljs-pattern-match"></span><br><span class="hljs-pattern-match">p.import<span class="hljs-constructor">_state</span>.reset<span class="hljs-constructor">_retry_count</span></span><br><span class="hljs-pattern-match"></span><br><span class="hljs-pattern-match">p.import<span class="hljs-constructor">_state</span>.set<span class="hljs-constructor">_next_execution_to_now(<span class="hljs-params">prioritized</span>: <span class="hljs-params">true</span>)</span></span><br><span class="hljs-pattern-match"></span><br><span class="hljs-pattern-match">p.import<span class="hljs-constructor">_state</span>.save!</span><br><span class="hljs-pattern-match"></span><br><span class="hljs-pattern-match"><span class="hljs-keyword">end</span></span><br><span class="hljs-pattern-match"></span><br><span class="hljs-pattern-match"><span class="hljs-keyword">end</span></span><br><span class="hljs-pattern-match"></span><br></code></pre></td></tr></table></figure><blockquote><p>Written with <a href="https://stackedit.io/">StackEdit</a>.</p></blockquote><!--stackedit_data:eyJoaXN0b3J5IjpbLTE3MTM2NTY1MTddfQ==-->]]></content>
-    
-    
-    
-    <tags>
-      
-      <tag>GitLab</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
     <title>initializer is inaccessible due to &#39;private&#39; protection level</title>
     <link href="/2023/09/13/%E5%AD%A6%E8%89%BA%E4%B8%8D%E7%B2%BE/initializer%20is%20inaccessible%20due%20to%20&#39;private&#39;%20protection%20level.md/"/>
     <url>/2023/09/13/%E5%AD%A6%E8%89%BA%E4%B8%8D%E7%B2%BE/initializer%20is%20inaccessible%20due%20to%20&#39;private&#39;%20protection%20level.md/</url>
@@ -40,6 +21,25 @@
     <tags>
       
       <tag>Swift</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>重置GitLab pull mirror功能</title>
+    <link href="/2023/09/13/GitLab/%E9%87%8D%E7%BD%AEGitLab%20pull%20mirror/"/>
+    <url>/2023/09/13/GitLab/%E9%87%8D%E7%BD%AEGitLab%20pull%20mirror/</url>
+    
+    <content type="html"><![CDATA[<p>网络出现一段问题，导致 <code>gitlab</code> 的 <code>pull mirror</code> 功能超过了 <code>最大重试次数</code>，进入了暂停 pull mirror 的状态。重置多个项目的 <code>pull mirror</code> 功能，如下：</p><ul><li>进入 <code>gitlab-rails console</code></li></ul><blockquote><p>$ docker exec -it gitlab bash<br>$ gitlab-rails console</p></blockquote><ul><li>执行以下命令</li></ul><figure class="highlight reasonml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><code class="hljs reasonml"><br><span class="hljs-module-access"><span class="hljs-module"><span class="hljs-identifier">Project</span>.</span></span>find_each <span class="hljs-keyword">do</span> <span class="hljs-pattern-match">|p|</span><br><span class="hljs-pattern-match"></span><br><span class="hljs-pattern-match"><span class="hljs-keyword">if</span> p.import<span class="hljs-constructor">_state</span> <span class="hljs-operator">&amp;&amp;</span> p.import<span class="hljs-constructor">_state</span>.retry<span class="hljs-constructor">_count</span> &gt;= 14</span><br><span class="hljs-pattern-match"></span><br><span class="hljs-pattern-match">puts &quot;<span class="hljs-constructor">Resetting</span> mirroring operation <span class="hljs-keyword">for</span> #&#123;p.full<span class="hljs-constructor">_path</span>&#125;&quot;</span><br><span class="hljs-pattern-match"></span><br><span class="hljs-pattern-match">p.import<span class="hljs-constructor">_state</span>.reset<span class="hljs-constructor">_retry_count</span></span><br><span class="hljs-pattern-match"></span><br><span class="hljs-pattern-match">p.import<span class="hljs-constructor">_state</span>.set<span class="hljs-constructor">_next_execution_to_now(<span class="hljs-params">prioritized</span>: <span class="hljs-params">true</span>)</span></span><br><span class="hljs-pattern-match"></span><br><span class="hljs-pattern-match">p.import<span class="hljs-constructor">_state</span>.save!</span><br><span class="hljs-pattern-match"></span><br><span class="hljs-pattern-match"><span class="hljs-keyword">end</span></span><br><span class="hljs-pattern-match"></span><br><span class="hljs-pattern-match"><span class="hljs-keyword">end</span></span><br><span class="hljs-pattern-match"></span><br></code></pre></td></tr></table></figure><blockquote><p>Written with <a href="https://stackedit.io/">StackEdit</a>.</p></blockquote><!--stackedit_data:eyJoaXN0b3J5IjpbLTIxNDYwNjQ1MDddfQ==-->]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>GitLab</tag>
       
     </tags>
     
