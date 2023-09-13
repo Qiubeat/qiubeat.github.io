@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Qiubeat</title>
+  <icon>https://blog.soian.fun/icon.png</icon>
+  
+  <link href="https://blog.soian.fun/atom.xml" rel="self"/>
+  
+  <link href="https://blog.soian.fun/"/>
+  <updated>2023-09-13T15:11:08.903Z</updated>
+  <id>https://blog.soian.fun/</id>
+  
+  <author>
+    <name>Qiubeat</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>initializer is inaccessible due to &#39;private&#39; protection level</title>
+    <link href="https://blog.soian.fun/2023/09/13/%E5%AD%A6%E8%89%BA%E4%B8%8D%E7%B2%BE/initializer%20is%20inaccessible%20due%20to%20&#39;private&#39;%20protection%20level.md/"/>
+    <id>https://blog.soian.fun/2023/09/13/%E5%AD%A6%E8%89%BA%E4%B8%8D%E7%B2%BE/initializer%20is%20inaccessible%20due%20to%20&#39;private&#39;%20protection%20level.md/</id>
+    <published>2023-09-13T15:11:08.903Z</published>
+    <updated>2023-09-13T15:11:08.903Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://forums.swift.org/t/initializer-is-inaccessible-due-to-private-protection-level/54808&quot;&gt;From Swift</summary>
+        
+      
+    
+    
+    
+    <category term="学艺不精" scheme="https://blog.soian.fun/categories/%E5%AD%A6%E8%89%BA%E4%B8%8D%E7%B2%BE/"/>
+    
+    
+    <category term="Swift" scheme="https://blog.soian.fun/tags/Swift/"/>
+    
+  </entry>
+  
+</feed>

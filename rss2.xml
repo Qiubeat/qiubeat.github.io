@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Qiubeat</title>
+    <link>https://blog.soian.fun/</link>
+    
+    <image>
+      <url>https://blog.soian.fun/icon.png</url>
+      <title>Qiubeat</title>
+      <link>https://blog.soian.fun/</link>
+    </image>
+    
+    <atom:link href="https://blog.soian.fun/rss2.xml" rel="self" type="application/rss+xml"/>
+    
+    <description></description>
+    <pubDate>Wed, 13 Sep 2023 15:11:08 GMT</pubDate>
+    <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>initializer is inaccessible due to &#39;private&#39; protection level</title>
+      <link>https://blog.soian.fun/2023/09/13/%E5%AD%A6%E8%89%BA%E4%B8%8D%E7%B2%BE/initializer%20is%20inaccessible%20due%20to%20&#39;private&#39;%20protection%20level.md/</link>
+      <guid>https://blog.soian.fun/2023/09/13/%E5%AD%A6%E8%89%BA%E4%B8%8D%E7%B2%BE/initializer%20is%20inaccessible%20due%20to%20&#39;private&#39;%20protection%20level.md/</guid>
+      <pubDate>Wed, 13 Sep 2023 15:11:08 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;p&gt;&lt;a href=&quot;https://forums.swift.org/t/initializer-is-inaccessible-due-to-private-protection-level/54808&quot;&gt;From Swift</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://blog.soian.fun/categories/%E5%AD%A6%E8%89%BA%E4%B8%8D%E7%B2%BE/">学艺不精</category>
+      
+      
+      <category domain="https://blog.soian.fun/tags/Swift/">Swift</category>
+      
+      
+      <comments>https://blog.soian.fun/2023/09/13/%E5%AD%A6%E8%89%BA%E4%B8%8D%E7%B2%BE/initializer%20is%20inaccessible%20due%20to%20&#39;private&#39;%20protection%20level.md/#disqus_thread</comments>
+      
+    </item>
+    
+  </channel>
+</rss>

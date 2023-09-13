@@ -3,5 +3,30 @@
   
   
   
+  <entry>
+    <title>initializer is inaccessible due to &#39;private&#39; protection level</title>
+    <link href="/2023/09/13/%E5%AD%A6%E8%89%BA%E4%B8%8D%E7%B2%BE/initializer%20is%20inaccessible%20due%20to%20&#39;private&#39;%20protection%20level.md/"/>
+    <url>/2023/09/13/%E5%AD%A6%E8%89%BA%E4%B8%8D%E7%B2%BE/initializer%20is%20inaccessible%20due%20to%20&#39;private&#39;%20protection%20level.md/</url>
+    
+    <content type="html"><![CDATA[<p><a href="https://forums.swift.org/t/initializer-is-inaccessible-due-to-private-protection-level/54808">From Swift Forums</a></p><p>复现代码：</p><figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><code class="hljs swift"><span class="hljs-keyword">struct</span> <span class="hljs-title class_">MyStruct</span> &#123;<br><span class="hljs-keyword">var</span> fruit: <span class="hljs-type">String</span><br><span class="hljs-keyword">private</span> <span class="hljs-keyword">var</span> animal: <span class="hljs-type">String</span>?<br><br><span class="hljs-keyword">func</span> <span class="hljs-title function_">setAnimal</span>(<span class="hljs-params">animal</span>: <span class="hljs-type">String</span>) &#123;<br><span class="hljs-keyword">self</span>.animal <span class="hljs-operator">=</span> animal<br>&#125;<br>&#125;<br><br><span class="hljs-keyword">struct</span> <span class="hljs-title class_">Variety</span> &#123;<br><span class="hljs-keyword">var</span> my: <span class="hljs-type">MyStruct</span> <span class="hljs-operator">=</span> <span class="hljs-type">MyStruct</span>(fruit: <span class="hljs-string">&quot;apple&quot;</span>)<br>&#125;<br></code></pre></td></tr></table></figure><p>问题原因：<br>调用 <code>MyStruct</code> 在初始化成员时是最终会转化为 <code>init(fruit: String, animal: String?)</code> ，而<code>animal</code> 是 <code>private</code> 类型，<code>MyStruct</code> 外部访问不到 <code>animal</code> 属性，所以会报错。</p><p>解决方案：</p><ol><li>删掉 <code>private</code></li><li><code>private var</code> 换成 <code>private let</code> ，但是<code>private let</code> 的变量只能初始化一次，后续不可更改。</li></ol><blockquote><p>Written with <a href="https://stackedit.io/">StackEdit</a>.</p></blockquote><!--stackedit_data:eyJoaXN0b3J5IjpbLTM0NTA2ODgxMF19-->]]></content>
+    
+    
+    <categories>
+      
+      <category>学艺不精</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Swift</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
   
 </search>
