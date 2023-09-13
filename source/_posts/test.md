@@ -1,3 +1,7 @@
+---
+title: title
+tag: test
+---
 # test
 
 test write 
