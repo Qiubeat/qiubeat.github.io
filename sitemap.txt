@@ -1,4 +1,6 @@
-https://blog.soian.fun/2023/09/12/hello-world/
-https://blog.soian.fun/2023/09/12/test/
+https://blog.soian.fun/2023/09/13/hello-world/
+https://blog.soian.fun/2023/09/13/test/
 https://blog.soian.fun/about/index.html
 https://blog.soian.fun/
+https://blog.soian.fun/tags/test/
+https://blog.soian.fun/categories/h/

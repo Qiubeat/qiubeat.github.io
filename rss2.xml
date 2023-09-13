@@ -15,14 +15,14 @@
     <atom:link href="https://blog.soian.fun/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Tue, 12 Sep 2023 11:21:56 GMT</pubDate>
+    <pubDate>Wed, 13 Sep 2023 06:15:01 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
       <title>Hello World</title>
-      <link>https://blog.soian.fun/2023/09/12/hello-world/</link>
-      <guid>https://blog.soian.fun/2023/09/12/hello-world/</guid>
-      <pubDate>Tue, 12 Sep 2023 11:21:56 GMT</pubDate>
+      <link>https://blog.soian.fun/2023/09/13/hello-world/</link>
+      <guid>https://blog.soian.fun/2023/09/13/hello-world/</guid>
+      <pubDate>Wed, 13 Sep 2023 06:15:01 GMT</pubDate>
       
         
         
@@ -35,17 +35,21 @@
       
       
       
+      <category domain="https://blog.soian.fun/categories/h/">h</category>
       
       
-      <comments>https://blog.soian.fun/2023/09/12/hello-world/#disqus_thread</comments>
+      <category domain="https://blog.soian.fun/tags/test/">test</category>
+      
+      
+      <comments>https://blog.soian.fun/2023/09/13/hello-world/#disqus_thread</comments>
       
     </item>
     
     <item>
-      <title></title>
-      <link>https://blog.soian.fun/2023/09/12/test/</link>
-      <guid>https://blog.soian.fun/2023/09/12/test/</guid>
-      <pubDate>Tue, 12 Sep 2023 11:21:56 GMT</pubDate>
+      <title>title</title>
+      <link>https://blog.soian.fun/2023/09/13/test/</link>
+      <guid>https://blog.soian.fun/2023/09/13/test/</guid>
+      <pubDate>Wed, 13 Sep 2023 06:15:01 GMT</pubDate>
       
         
         
@@ -61,8 +65,10 @@
       
       
       
+      <category domain="https://blog.soian.fun/tags/test/">test</category>
       
-      <comments>https://blog.soian.fun/2023/09/12/test/#disqus_thread</comments>
+      
+      <comments>https://blog.soian.fun/2023/09/13/test/#disqus_thread</comments>
       
     </item>
     
