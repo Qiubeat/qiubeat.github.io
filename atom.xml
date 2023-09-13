@@ -6,7 +6,7 @@
   <link href="https://blog.soian.fun/atom.xml" rel="self"/>
   
   <link href="https://blog.soian.fun/"/>
-  <updated>2023-09-13T15:11:08.903Z</updated>
+  <updated>2023-09-13T15:24:24.830Z</updated>
   <id>https://blog.soian.fun/</id>
   
   <author>
@@ -17,11 +17,34 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>重置GitLab pull mirror功能</title>
+    <link href="https://blog.soian.fun/2023/09/13/GitLab/%E9%87%8D%E7%BD%AEGitLab%20pull%20mirror/"/>
+    <id>https://blog.soian.fun/2023/09/13/GitLab/%E9%87%8D%E7%BD%AEGitLab%20pull%20mirror/</id>
+    <published>2023-09-13T15:24:24.830Z</published>
+    <updated>2023-09-13T15:24:24.830Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;网络出现一段问题，导致 &lt;code&gt;gitlab&lt;/code&gt; 的 &lt;code&gt;pull mirror&lt;/code&gt; 功能超过了 &lt;code&gt;最大重试次数&lt;/code&gt;，进入了暂停 pull mirror 的状态。重置多个项目的 &lt;code&gt;pull</summary>
+        
+      
+    
+    
+    
+    
+    <category term="GitLab" scheme="https://blog.soian.fun/tags/GitLab/"/>
+    
+  </entry>
+  
+  <entry>
     <title>initializer is inaccessible due to &#39;private&#39; protection level</title>
     <link href="https://blog.soian.fun/2023/09/13/%E5%AD%A6%E8%89%BA%E4%B8%8D%E7%B2%BE/initializer%20is%20inaccessible%20due%20to%20&#39;private&#39;%20protection%20level.md/"/>
     <id>https://blog.soian.fun/2023/09/13/%E5%AD%A6%E8%89%BA%E4%B8%8D%E7%B2%BE/initializer%20is%20inaccessible%20due%20to%20&#39;private&#39;%20protection%20level.md/</id>
-    <published>2023-09-13T15:11:08.903Z</published>
-    <updated>2023-09-13T15:11:08.903Z</updated>
+    <published>2023-09-13T15:24:24.830Z</published>
+    <updated>2023-09-13T15:24:24.830Z</updated>
     
     
       
