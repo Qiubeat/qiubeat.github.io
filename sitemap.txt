@@ -1,6 +1,6 @@
+https://blog.soian.fun/2023/09/13/GitLab/%E9%87%8D%E7%BD%AEGitLab%20pull%20mirror/
 https://blog.soian.fun/2023/09/13/%E5%AD%A6%E8%89%BA%E4%B8%8D%E7%B2%BE/initializer%20is%20inaccessible%20due%20to%20'private'%20protection%20level.md/
 https://blog.soian.fun/about/index.html
-https://blog.soian.fun/2023/09/13/GitLab/%E9%87%8D%E7%BD%AEGitLab%20pull%20mirror/
 https://blog.soian.fun/
 https://blog.soian.fun/tags/GitLab/
 https://blog.soian.fun/tags/Swift/

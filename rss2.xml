@@ -15,14 +15,39 @@
     <atom:link href="https://blog.soian.fun/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Wed, 13 Sep 2023 15:25:59 GMT</pubDate>
+    <pubDate>Wed, 13 Sep 2023 15:27:36 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>重置GitLab pull mirror功能</title>
+      <link>https://blog.soian.fun/2023/09/13/GitLab/%E9%87%8D%E7%BD%AEGitLab%20pull%20mirror/</link>
+      <guid>https://blog.soian.fun/2023/09/13/GitLab/%E9%87%8D%E7%BD%AEGitLab%20pull%20mirror/</guid>
+      <pubDate>Wed, 13 Sep 2023 15:27:36 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;p&gt;网络出现一段问题，导致 &lt;code&gt;gitlab&lt;/code&gt; 的 &lt;code&gt;pull mirror&lt;/code&gt; 功能超过了 &lt;code&gt;最大重试次数&lt;/code&gt;，进入了暂停 pull mirror 的状态。重置多个项目的 &lt;code&gt;pull</description>
+          
+        
+      
+      
+      
+      
+      
+      <category domain="https://blog.soian.fun/tags/GitLab/">GitLab</category>
+      
+      
+      <comments>https://blog.soian.fun/2023/09/13/GitLab/%E9%87%8D%E7%BD%AEGitLab%20pull%20mirror/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>initializer is inaccessible due to &#39;private&#39; protection level</title>
       <link>https://blog.soian.fun/2023/09/13/%E5%AD%A6%E8%89%BA%E4%B8%8D%E7%B2%BE/initializer%20is%20inaccessible%20due%20to%20&#39;private&#39;%20protection%20level.md/</link>
       <guid>https://blog.soian.fun/2023/09/13/%E5%AD%A6%E8%89%BA%E4%B8%8D%E7%B2%BE/initializer%20is%20inaccessible%20due%20to%20&#39;private&#39;%20protection%20level.md/</guid>
-      <pubDate>Wed, 13 Sep 2023 15:25:59 GMT</pubDate>
+      <pubDate>Wed, 13 Sep 2023 15:27:36 GMT</pubDate>
       
         
         
@@ -42,31 +67,6 @@
       
       
       <comments>https://blog.soian.fun/2023/09/13/%E5%AD%A6%E8%89%BA%E4%B8%8D%E7%B2%BE/initializer%20is%20inaccessible%20due%20to%20&#39;private&#39;%20protection%20level.md/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>重置GitLab pull mirror功能</title>
-      <link>https://blog.soian.fun/2023/09/13/GitLab/%E9%87%8D%E7%BD%AEGitLab%20pull%20mirror/</link>
-      <guid>https://blog.soian.fun/2023/09/13/GitLab/%E9%87%8D%E7%BD%AEGitLab%20pull%20mirror/</guid>
-      <pubDate>Wed, 13 Sep 2023 15:25:59 GMT</pubDate>
-      
-        
-        
-          
-          
-      <description>&lt;p&gt;网络出现一段问题，导致 &lt;code&gt;gitlab&lt;/code&gt; 的 &lt;code&gt;pull mirror&lt;/code&gt; 功能超过了 &lt;code&gt;最大重试次数&lt;/code&gt;，进入了暂停 pull mirror 的状态。重置多个项目的 &lt;code&gt;pull</description>
-          
-        
-      
-      
-      
-      
-      
-      <category domain="https://blog.soian.fun/tags/GitLab/">GitLab</category>
-      
-      
-      <comments>https://blog.soian.fun/2023/09/13/GitLab/%E9%87%8D%E7%BD%AEGitLab%20pull%20mirror/#disqus_thread</comments>
       
     </item>
     
