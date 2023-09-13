@@ -12,9 +12,6 @@ tag: GitLab
 + 进入 `gitlab-rails console`
 
 > $ docker exec -it gitlab bash
-
-  
-
 > $ gitlab-rails console
 
   
@@ -44,5 +41,5 @@ end
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTM2NTY1MTddfQ==
+eyJoaXN0b3J5IjpbLTIxNDYwNjQ1MDddfQ==
 -->
