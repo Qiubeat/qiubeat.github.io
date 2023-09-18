@@ -15,14 +15,14 @@
     <atom:link href="https://blog.soian.fun/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Fri, 15 Sep 2023 06:19:02 GMT</pubDate>
+    <pubDate>Mon, 18 Sep 2023 04:53:02 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
       <title>重置GitLab pull mirror功能</title>
-      <link>https://blog.soian.fun/2023/09/15/GitLab/%E9%87%8D%E7%BD%AEGitLab%20pull%20mirror/</link>
-      <guid>https://blog.soian.fun/2023/09/15/GitLab/%E9%87%8D%E7%BD%AEGitLab%20pull%20mirror/</guid>
-      <pubDate>Fri, 15 Sep 2023 06:19:02 GMT</pubDate>
+      <link>https://blog.soian.fun/2023/09/18/GitLab/%E9%87%8D%E7%BD%AEGitLab%20pull%20mirror/</link>
+      <guid>https://blog.soian.fun/2023/09/18/GitLab/%E9%87%8D%E7%BD%AEGitLab%20pull%20mirror/</guid>
+      <pubDate>Mon, 18 Sep 2023 04:53:02 GMT</pubDate>
       
         
         
@@ -39,15 +39,15 @@
       <category domain="https://blog.soian.fun/tags/GitLab/">GitLab</category>
       
       
-      <comments>https://blog.soian.fun/2023/09/15/GitLab/%E9%87%8D%E7%BD%AEGitLab%20pull%20mirror/#disqus_thread</comments>
+      <comments>https://blog.soian.fun/2023/09/18/GitLab/%E9%87%8D%E7%BD%AEGitLab%20pull%20mirror/#disqus_thread</comments>
       
     </item>
     
     <item>
       <title>Cannot assign to property &#39;self&#39; is immutable</title>
-      <link>https://blog.soian.fun/2023/09/15/%E5%AD%A6%E8%89%BA%E4%B8%8D%E7%B2%BE/Cannot%20assign%20to%20property_%20&#39;self&#39;%20is%20immutable.md/</link>
-      <guid>https://blog.soian.fun/2023/09/15/%E5%AD%A6%E8%89%BA%E4%B8%8D%E7%B2%BE/Cannot%20assign%20to%20property_%20&#39;self&#39;%20is%20immutable.md/</guid>
-      <pubDate>Fri, 15 Sep 2023 06:19:02 GMT</pubDate>
+      <link>https://blog.soian.fun/2023/09/18/%E5%AD%A6%E8%89%BA%E4%B8%8D%E7%B2%BE/Cannot%20assign%20to%20property_%20&#39;self&#39;%20is%20immutable.md/</link>
+      <guid>https://blog.soian.fun/2023/09/18/%E5%AD%A6%E8%89%BA%E4%B8%8D%E7%B2%BE/Cannot%20assign%20to%20property_%20&#39;self&#39;%20is%20immutable.md/</guid>
+      <pubDate>Mon, 18 Sep 2023 04:53:02 GMT</pubDate>
       
         
         
@@ -66,15 +66,15 @@
       <category domain="https://blog.soian.fun/tags/Swift/">Swift</category>
       
       
-      <comments>https://blog.soian.fun/2023/09/15/%E5%AD%A6%E8%89%BA%E4%B8%8D%E7%B2%BE/Cannot%20assign%20to%20property_%20&#39;self&#39;%20is%20immutable.md/#disqus_thread</comments>
+      <comments>https://blog.soian.fun/2023/09/18/%E5%AD%A6%E8%89%BA%E4%B8%8D%E7%B2%BE/Cannot%20assign%20to%20property_%20&#39;self&#39;%20is%20immutable.md/#disqus_thread</comments>
       
     </item>
     
     <item>
       <title>initializer is inaccessible due to &#39;private&#39; protection level</title>
-      <link>https://blog.soian.fun/2023/09/15/%E5%AD%A6%E8%89%BA%E4%B8%8D%E7%B2%BE/initializer%20is%20inaccessible%20due%20to%20&#39;private&#39;%20protection%20level.md/</link>
-      <guid>https://blog.soian.fun/2023/09/15/%E5%AD%A6%E8%89%BA%E4%B8%8D%E7%B2%BE/initializer%20is%20inaccessible%20due%20to%20&#39;private&#39;%20protection%20level.md/</guid>
-      <pubDate>Fri, 15 Sep 2023 06:19:02 GMT</pubDate>
+      <link>https://blog.soian.fun/2023/09/18/%E5%AD%A6%E8%89%BA%E4%B8%8D%E7%B2%BE/initializer%20is%20inaccessible%20due%20to%20&#39;private&#39;%20protection%20level.md/</link>
+      <guid>https://blog.soian.fun/2023/09/18/%E5%AD%A6%E8%89%BA%E4%B8%8D%E7%B2%BE/initializer%20is%20inaccessible%20due%20to%20&#39;private&#39;%20protection%20level.md/</guid>
+      <pubDate>Mon, 18 Sep 2023 04:53:02 GMT</pubDate>
       
         
         
@@ -93,7 +93,7 @@
       <category domain="https://blog.soian.fun/tags/Swift/">Swift</category>
       
       
-      <comments>https://blog.soian.fun/2023/09/15/%E5%AD%A6%E8%89%BA%E4%B8%8D%E7%B2%BE/initializer%20is%20inaccessible%20due%20to%20&#39;private&#39;%20protection%20level.md/#disqus_thread</comments>
+      <comments>https://blog.soian.fun/2023/09/18/%E5%AD%A6%E8%89%BA%E4%B8%8D%E7%B2%BE/initializer%20is%20inaccessible%20due%20to%20&#39;private&#39;%20protection%20level.md/#disqus_thread</comments>
       
     </item>
     
